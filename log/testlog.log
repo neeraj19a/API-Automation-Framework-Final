@@ -1,0 +1,1107 @@
+2022-10-29 17:59:02,754 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:02,762 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName started
+2022-10-29 17:59:02,796 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:06,043 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=321f87c3a20db815908ef0152ebe4d13
+Date=Sat, 29 Oct 2022 13:59:05 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 17:59:06,044 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:06,045 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. Theyâ€™re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 17:59:06,049 - utilities.APIBase -INFO - API Response Time is 2238
+2022-10-29 17:59:07,009 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName finished
+
+2022-10-29 17:59:07,009 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:07,014 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:07,015 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName started
+2022-10-29 17:59:07,017 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:07,718 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=510d29c948e3907332ea40479cc37349;o=1
+Date=Sat, 29 Oct 2022 13:59:07 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 17:59:07,721 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyss
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyss
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:07,722 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. Theyâ€™re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 17:59:07,724 - utilities.APIBase -INFO - API Response Time is 657
+2022-10-29 17:59:07,761 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName finished
+
+2022-10-29 17:59:07,762 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:07,764 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:07,764 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 17:59:07,765 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:08,394 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=fa660c3660e5c33867dfdb80e85918b8
+Date=Sat, 29 Oct 2022 13:59:08 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:08,395 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=23467890
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=23467890
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:08,396 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:08,396 - utilities.APIBase -INFO - API Response Time is 612
+2022-10-29 17:59:08,411 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 17:59:08,412 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:08,413 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:08,413 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 17:59:08,414 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:09,032 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=cf8d4fa7e47bca4d8bb2804e3ca02237
+Date=Sat, 29 Oct 2022 13:59:08 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:09,032 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AS%21%40%23%24%25%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AS!@#$%^
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:09,033 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:09,033 - utilities.APIBase -INFO - API Response Time is 603
+2022-10-29 17:59:09,046 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 17:59:09,046 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:09,048 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:09,048 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 17:59:09,050 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:09,762 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=65ms
+X-Cloud-Trace-Context=33e14fe689c10b1d641b1bdcff67757c
+Date=Sat, 29 Oct 2022 13:59:09 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:09,763 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20%2065AS
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=  65AS
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:09,764 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:09,764 - utilities.APIBase -INFO - API Response Time is 702
+2022-10-29 17:59:09,778 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 17:59:09,779 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:09,780 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:09,780 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 17:59:09,781 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:10,399 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=65ms
+X-Cloud-Trace-Context=7f1fac93199666d8cffdce26e6edbe42
+Date=Sat, 29 Oct 2022 13:59:10 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:10,399 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20dfggdf545%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	q= dfggdf545 
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:10,400 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:10,400 - utilities.APIBase -INFO - API Response Time is 603
+2022-10-29 17:59:10,413 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 17:59:10,413 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:10,414 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:10,415 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 17:59:10,416 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:11,021 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=9efcf6cdf1de5ecd30ba71f22360566e
+Date=Sat, 29 Oct 2022 13:59:10 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:11,022 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AbyssinianAbyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AbyssinianAbyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:11,023 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:11,025 - utilities.APIBase -INFO - API Response Time is 593
+2022-10-29 17:59:11,038 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 17:59:11,039 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:11,040 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:11,040 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters started
+2022-10-29 17:59:11,042 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:11,662 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=744db3183084dd043535c6727ae15b18
+Date=Sat, 29 Oct 2022 13:59:11 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:11,663 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=*
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=*
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:11,663 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:11,665 - utilities.APIBase -INFO - API Response Time is 604
+2022-10-29 17:59:11,679 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters finished
+
+2022-10-29 17:59:11,679 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:11,680 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 17:59:11,681 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater started
+2022-10-29 17:59:11,682 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 17:59:12,294 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=65ms
+X-Cloud-Trace-Context=2a8284180fed201d9e4dcf53f2ae2adc
+Date=Sat, 29 Oct 2022 13:59:12 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 17:59:12,295 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 17:59:12,295 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 17:59:12,296 - utilities.APIBase -INFO - API Response Time is 600
+2022-10-29 17:59:12,310 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater finished
+
+2022-10-29 17:59:12,310 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:01,164 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:01,169 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName started
+2022-10-29 18:04:01,181 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:03,917 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=dfe97a4704e1a6410e48d23265e81ba3
+Date=Sat, 29 Oct 2022 14:04:03 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 18:04:03,918 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:03,920 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 18:04:03,927 - utilities.APIBase -INFO - API Response Time is 2100
+2022-10-29 18:04:04,977 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName finished
+
+2022-10-29 18:04:04,977 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:04,982 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:04,983 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName started
+2022-10-29 18:04:04,987 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:05,634 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=4cb4dbe7f250073e240e9931bcdaf52a
+Date=Sat, 29 Oct 2022 14:04:05 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 18:04:05,635 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyss
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyss
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:05,636 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 18:04:05,640 - utilities.APIBase -INFO - API Response Time is 623
+2022-10-29 18:04:05,681 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName finished
+
+2022-10-29 18:04:05,682 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:05,685 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:05,686 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:04:05,687 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:06,331 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=9feed395867166c121c346a4af279659
+Date=Sat, 29 Oct 2022 14:04:06 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:06,335 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=23467890
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=23467890
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:06,339 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:06,341 - utilities.APIBase -INFO - API Response Time is 622
+2022-10-29 18:04:06,371 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:04:06,372 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:06,374 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:06,375 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:04:06,376 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:07,024 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=095240ced2e47f4c6eb15c3cd85311f7
+Date=Sat, 29 Oct 2022 14:04:06 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:07,026 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AS%21%40%23%24%25%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AS!@#$%^
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:07,029 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:07,032 - utilities.APIBase -INFO - API Response Time is 629
+2022-10-29 18:04:07,049 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:04:07,050 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:07,051 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:07,052 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:04:07,053 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:07,664 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=939282c09e5921e921cffd99fd87c389
+Date=Sat, 29 Oct 2022 14:04:07 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:07,664 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20%2065AS
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=  65AS
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:07,664 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:07,665 - utilities.APIBase -INFO - API Response Time is 598
+2022-10-29 18:04:07,679 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:04:07,679 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:07,680 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:07,680 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:04:07,682 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:08,303 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=02f1c33032960392f297952b420cc1ef
+Date=Sat, 29 Oct 2022 14:04:08 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:08,306 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20dfggdf545%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	q= dfggdf545 
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:08,308 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:08,310 - utilities.APIBase -INFO - API Response Time is 605
+2022-10-29 18:04:08,328 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:04:08,328 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:08,330 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:08,331 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:04:08,332 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:08,949 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=420696827cd99da1e893d3fc649fc88b
+Date=Sat, 29 Oct 2022 14:04:08 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:08,951 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AbyssinianAbyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AbyssinianAbyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:08,953 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:08,956 - utilities.APIBase -INFO - API Response Time is 603
+2022-10-29 18:04:08,975 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:04:08,975 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:08,977 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:08,977 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters started
+2022-10-29 18:04:08,979 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:09,610 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=1fa7b08856501ea37a81edc940080e0b
+Date=Sat, 29 Oct 2022 14:04:09 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:09,612 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=*
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=*
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:09,618 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:09,622 - utilities.APIBase -INFO - API Response Time is 614
+2022-10-29 18:04:09,636 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters finished
+
+2022-10-29 18:04:09,636 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:09,639 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:04:09,640 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater started
+2022-10-29 18:04:09,640 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:04:10,255 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=66ms
+X-Cloud-Trace-Context=03efc9ace1260b824e0cf9046562e2a9
+Date=Sat, 29 Oct 2022 14:04:10 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:04:10,257 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:04:10,259 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:04:10,265 - utilities.APIBase -INFO - API Response Time is 603
+2022-10-29 18:04:10,293 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater finished
+
+2022-10-29 18:04:10,294 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:17,867 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:17,872 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName started
+2022-10-29 18:07:17,883 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:20,880 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=68ms
+X-Cloud-Trace-Context=03c007ae4e551a2be2de8d43893687e7
+Date=Sat, 29 Oct 2022 14:07:20 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 18:07:20,881 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:20,884 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 18:07:20,890 - utilities.APIBase -INFO - API Response Time is 2272
+2022-10-29 18:07:21,843 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByFullName finished
+
+2022-10-29 18:07:21,843 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:21,858 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:21,859 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName started
+2022-10-29 18:07:21,865 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:22,525 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=72ms
+X-Cloud-Trace-Context=e50aaf9349dc5f1b119e7cf3b859c349
+Date=Sat, 29 Oct 2022 14:07:22 GMT
+Server=Google Frontend
+Content-Length=1043
+
+
+2022-10-29 18:07:22,527 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=Abyss
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=Abyss
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:22,529 - utilities.APIBase -INFO - Response is Here 
+[{"weight":{"imperial":"7  -  10","metric":"3 - 5"},"id":"abys","name":"Abyssinian","cfa_url":"http://cfa.org/Breeds/BreedsAB/Abyssinian.aspx","vetstreet_url":"http://www.vetstreet.com/cats/abyssinian","vcahospitals_url":"https://vcahospitals.com/know-your-pet/cat-breeds/abyssinian","temperament":"Active, Energetic, Independent, Intelligent, Gentle","origin":"Egypt","country_codes":"EG","country_code":"EG","description":"The Abyssinian is easy to care for, and a joy to have in your home. They’re affectionate cats and love both people and other animals.","life_span":"14 - 15","indoor":0,"lap":1,"alt_names":"","adaptability":5,"affection_level":5,"child_friendly":3,"dog_friendly":4,"energy_level":5,"grooming":1,"health_issues":2,"intelligence":5,"shedding_level":2,"social_needs":5,"stranger_friendly":5,"vocalisation":1,"experimental":0,"hairless":0,"natural":1,"rare":0,"rex":0,"suppressed_tail":0,"short_legs":0,"wikipedia_url":"https://en.wikipedia.org/wiki/Abyssinian_(cat)","hypoallergenic":0,"reference_image_id":"0XYvRd7oD"}]
+2022-10-29 18:07:22,534 - utilities.APIBase -INFO - API Response Time is 625
+2022-10-29 18:07:22,571 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySubValidFullName finished
+
+2022-10-29 18:07:22,571 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:22,573 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:22,577 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:07:22,579 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:23,235 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=68ms
+X-Cloud-Trace-Context=28a81d570e22d3e5936386ecfd88a80d
+Date=Sat, 29 Oct 2022 14:07:23 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:23,236 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=23467890
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=23467890
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:23,236 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:23,237 - utilities.APIBase -INFO - API Response Time is 637
+2022-10-29 18:07:23,254 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:07:23,255 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:23,257 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:23,257 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:07:23,259 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:23,888 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=68ms
+X-Cloud-Trace-Context=9217a56f8957fcdcf21a55b56ef4d508
+Date=Sat, 29 Oct 2022 14:07:23 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:23,889 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AS%21%40%23%24%25%5E
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AS!@#$%^
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:23,890 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:23,891 - utilities.APIBase -INFO - API Response Time is 613
+2022-10-29 18:07:23,907 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:07:23,908 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:23,912 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:23,912 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:07:23,914 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:24,526 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=68ms
+X-Cloud-Trace-Context=11f88a9eb71e0fee7af82847e19b329f
+Date=Sat, 29 Oct 2022 14:07:24 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:24,527 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20%2065AS
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=  65AS
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:24,528 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:24,529 - utilities.APIBase -INFO - API Response Time is 594
+2022-10-29 18:07:24,546 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:07:24,546 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:24,548 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:24,548 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:07:24,549 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:25,186 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=e8c5b1afda1b66e003e1c29e24c82462
+Date=Sat, 29 Oct 2022 14:07:25 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:25,187 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=%20dfggdf545%20
+Proxy:			<none>
+Request params:	<none>
+Query params:	q= dfggdf545 
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:25,188 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:25,188 - utilities.APIBase -INFO - API Response Time is 617
+2022-10-29 18:07:25,199 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:07:25,199 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:25,200 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:25,201 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter started
+2022-10-29 18:07:25,201 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:25,798 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=e986e8f374cd28d7478ac8cd22148f10
+Date=Sat, 29 Oct 2022 14:07:25 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:25,798 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=AbyssinianAbyssinian
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=AbyssinianAbyssinian
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:25,799 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:25,800 - utilities.APIBase -INFO - API Response Time is 583
+2022-10-29 18:07:25,812 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedByInvalidParameter finished
+
+2022-10-29 18:07:25,812 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:25,813 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:25,814 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters started
+2022-10-29 18:07:25,816 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:26,446 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=67ms
+X-Cloud-Trace-Context=a4bab19bfa00f71df4cfc1ce12b47f1e
+Date=Sat, 29 Oct 2022 14:07:26 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:26,447 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=*
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=*
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:26,448 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:26,449 - utilities.APIBase -INFO - API Response Time is 614
+2022-10-29 18:07:26,463 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedBySpecialCharacters finished
+
+2022-10-29 18:07:26,465 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:26,467 - utilities.APIBase -INFO - ================================================================================== 
+
+2022-10-29 18:07:26,467 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater started
+2022-10-29 18:07:26,468 - utilities.APIBase -INFO - URL-->https://api.thecatapi.com/v1/breeds/search
+2022-10-29 18:07:27,074 - utilities.APIBase -INFO - Headers are here 
+x-dns-prefetch-control=off
+x-frame-options=SAMEORIGIN
+strict-transport-security=max-age=15552000; includeSubDomains
+x-download-options=noopen
+x-content-type-options=nosniff
+x-xss-protection=1; mode=block
+vary=Origin
+content-type=application/json; charset=utf-8
+x-response-time=68ms
+X-Cloud-Trace-Context=ff215840992bc1ca0d5f963368cfffc6
+Date=Sat, 29 Oct 2022 14:07:27 GMT
+Server=Google Frontend
+Content-Length=2
+
+
+2022-10-29 18:07:27,075 - utilities.APIBase -INFO - Request is Here 
+Request method:	GET
+Request URI:	https://api.thecatapi.com/v1/breeds/search?q=
+Proxy:			<none>
+Request params:	<none>
+Query params:	q=
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+2022-10-29 18:07:27,075 - utilities.APIBase -INFO - Response is Here 
+[]
+2022-10-29 18:07:27,076 - utilities.APIBase -INFO - API Response Time is 597
+2022-10-29 18:07:27,088 - utilities.APIBase -INFO - Execution of Test Case:- searchBreedWithoutQueryParamater finished
+
+2022-10-29 18:07:27,088 - utilities.APIBase -INFO - ================================================================================== 
+

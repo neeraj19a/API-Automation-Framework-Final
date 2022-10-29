@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="9246" started-at="2022-10-29T14:07:17Z" finished-at="2022-10-29T14:07:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9246" started-at="2022-10-29T14:07:17Z" finished-at="2022-10-29T14:07:27Z">
+      <class name="testcases.TestCases">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TestCases@51f116b8]" name="setUp" is-config="true" duration-ms="255" started-at="2022-10-29T14:07:17Z" finished-at="2022-10-29T14:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeClass" is-config="true" duration-ms="4" started-at="2022-10-29T14:07:17Z" finished-at="2022-10-29T14:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2022-10-29T14:07:17Z" finished-at="2022-10-29T14:07:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByFullName(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByFullName(java.lang.String)[pri:1, instance:testcases.TestCases@51f116b8]" name="searchBreedByFullName" duration-ms="3962" started-at="2022-10-29T14:07:17Z" data-provider="validFullName" finished-at="2022-10-29T14:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abyssinian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByFullName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-10-29T14:07:21Z" finished-at="2022-10-29T14:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByFullName status=SUCCESS method=TestCases.searchBreedByFullName(java.lang.String)[pri:1, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2022-10-29T14:07:21Z" finished-at="2022-10-29T14:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedBySubValidFullName(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedBySubValidFullName(java.lang.String)[pri:2, instance:testcases.TestCases@51f116b8]" name="searchBreedBySubValidFullName" duration-ms="710" started-at="2022-10-29T14:07:21Z" data-provider="validPartialName" finished-at="2022-10-29T14:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abyss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedBySubValidFullName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-10-29T14:07:22Z" finished-at="2022-10-29T14:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedBySubValidFullName status=SUCCESS method=TestCases.searchBreedBySubValidFullName(java.lang.String)[pri:2, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-10-29T14:07:22Z" finished-at="2022-10-29T14:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByInvalidParameter(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8]" name="searchBreedByInvalidParameter" duration-ms="675" started-at="2022-10-29T14:07:22Z" data-provider="invalidParameter" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23467890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByInvalidParameter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-10-29T14:07:23Z" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByInvalidParameter status=SUCCESS method=TestCases.searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2022-10-29T14:07:23Z" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByInvalidParameter(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8]" name="searchBreedByInvalidParameter" duration-ms="647" started-at="2022-10-29T14:07:23Z" data-provider="invalidParameter" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AS!@#$%^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByInvalidParameter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="4" started-at="2022-10-29T14:07:23Z" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByInvalidParameter status=SUCCESS method=TestCases.searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:23Z" finished-at="2022-10-29T14:07:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByInvalidParameter(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8]" name="searchBreedByInvalidParameter" duration-ms="632" started-at="2022-10-29T14:07:23Z" data-provider="invalidParameter" finished-at="2022-10-29T14:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  65AS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByInvalidParameter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:24Z" finished-at="2022-10-29T14:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByInvalidParameter status=SUCCESS method=TestCases.searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-10-29T14:07:24Z" finished-at="2022-10-29T14:07:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByInvalidParameter(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8]" name="searchBreedByInvalidParameter" duration-ms="649" started-at="2022-10-29T14:07:24Z" data-provider="invalidParameter" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ dfggdf545 ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByInvalidParameter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:25Z" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByInvalidParameter status=SUCCESS method=TestCases.searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-10-29T14:07:25Z" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedByInvalidParameter(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8]" name="searchBreedByInvalidParameter" duration-ms="610" started-at="2022-10-29T14:07:25Z" data-provider="invalidParameter" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AbyssinianAbyssinian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedByInvalidParameter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:25Z" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedByInvalidParameter status=SUCCESS method=TestCases.searchBreedByInvalidParameter(java.lang.String)[pri:3, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-10-29T14:07:25Z" finished-at="2022-10-29T14:07:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedBySpecialCharacters(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedBySpecialCharacters(java.lang.String)[pri:4, instance:testcases.TestCases@51f116b8]" name="searchBreedBySpecialCharacters" duration-ms="648" started-at="2022-10-29T14:07:25Z" data-provider="specialCharacters" finished-at="2022-10-29T14:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedBySpecialCharacters -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="3" started-at="2022-10-29T14:07:26Z" finished-at="2022-10-29T14:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedBySpecialCharacters status=SUCCESS method=TestCases.searchBreedBySpecialCharacters(java.lang.String)[pri:4, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.TestCases@51f116b8]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:26Z" finished-at="2022-10-29T14:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestCases.searchBreedWithoutQueryParamater()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchBreedWithoutQueryParamater()[pri:5, instance:testcases.TestCases@51f116b8]" name="searchBreedWithoutQueryParamater" duration-ms="619" started-at="2022-10-29T14:07:26Z" finished-at="2022-10-29T14:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBreedWithoutQueryParamater -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TestCases@51f116b8]" name="afterMethod" is-config="true" duration-ms="2" started-at="2022-10-29T14:07:27Z" finished-at="2022-10-29T14:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBreedWithoutQueryParamater status=SUCCESS method=TestCases.searchBreedWithoutQueryParamater()[pri:5, instance:testcases.TestCases@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownFramework()[pri:0, instance:testcases.TestCases@51f116b8]" name="tearDownFramework" is-config="true" duration-ms="512" started-at="2022-10-29T14:07:27Z" finished-at="2022-10-29T14:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownFramework -->
+      </class> <!-- testcases.TestCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
