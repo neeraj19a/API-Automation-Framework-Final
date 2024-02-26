@@ -1,4 +1,4 @@
-# Tamara-Assignment (API Automation Framework)
+# (API Automation Framework)
 
 #  Technologies and Libraries Used
 -**Java**
